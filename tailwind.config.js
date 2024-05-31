@@ -8,15 +8,19 @@ export default {
     extend: {
       fontFamily: {
         'montserrat': ['Montserrat'],
-        'Poppins':['Poppins'],
+        'Poppins': ['Poppins', 'sans-serif'],
         'lato': ['Lato'],
         'garamond': ['Garamond'],
-        'core-sans-a':['core-sans-a']
-    },
-    colors:{
-      'navy':'#000080',
-      'dark_blue':'#051650',
-    }
+        'core-sans-a': ['core-sans-a'],
+      },
+      colors: {
+        'navy': '#000080',
+        'dark_blue': '#051650',
+      },
+      screens: {
+        'xs': '500px',
+        'tablet':'768px'
+      },
     },
   },
   plugins: [],
